@@ -29,7 +29,7 @@ const FeedbackWidget = () => {
         break;
     }
   };
-  // Функція для підрахунку відсотку позитивних відгуків
+  // Функція для підрахунку відсотку позитивних  відгуків
   const countPositiveFeedbackPercentage = () => {
     const totalFeedback = good + neutral + bad;
     return totalFeedback === 0 ? 0 : Math.round((good / totalFeedback) * 100);
